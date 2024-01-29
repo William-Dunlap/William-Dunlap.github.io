@@ -8,27 +8,21 @@
 </head>
 <body>
 
-    <header>
-        <div class="container">
-            <h1>About Me</h1>
-        </div>
-    </header>
-
     <section id="introduction" class="container">
-        <h2>Introduction</h2>
-        <div class="grid">
+        <h1>About Me</h1>
+        <div class="grid" onclick="toggleExpand(this)">
             <div class="intro-text">
                 <p>Welcome to my personal cyberspace! I'm [Your Name], a Computer Engineering enthusiast, and this is a little bit about me...</p>
             </div>
             <div class="intro-image">
-                <img src="https://source.unsplash.com/800x600/?technology" alt="Technology Image">
+                <img src="https://media.licdn.com/dms/image/D5603AQFVQwTws0oj2w/profile-displayphoto-shrink_800_800/0/1693851751406?e=1712188800&v=beta&t=11ngjjSrcbjZEsRlEcIt57JprUFTL5D2EWNK9DT_TsE" alt="Technology Image">
             </div>
         </div>
     </section>
 
     <section id="education" class="container">
         <h2>Education</h2>
-        <div class="grid">
+        <div class="grid" onclick="toggleExpand(this)">
             <div class="education-text">
                 <p>I dived into the world of Computer Engineering at [Your University] and graduated in [Year]. My journey involved hacking through circuits and mastering the art of code.</p>
             </div>
@@ -50,7 +44,9 @@
 
     <section id="contact" class="container">
         <h2>Contact Me</h2>
-        <p>Connect with me through the digital realm at [Your Email] or find me in the coding matrix on [Your Social Media].</p>
+        <div class="grid" onclick="toggleExpand(this)">
+            <p>Connect with me through the digital realm at [Your Email] or find me in the coding matrix on [Your Social Media].</p>
+        </div>
     </section>
 
     <footer>

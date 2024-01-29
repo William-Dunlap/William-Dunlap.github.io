@@ -2,19 +2,9 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('https://i.pinimg.com/originals/00/08/06/0008069a050ade9ecf214d6ddd18021d.jpg') no-repeat center center fixed;
+    background: url('bg.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
-}
-
-.banner {
-    background: rgba(255, 255, 255, 0.9); /* White slightly transparent banner */
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position: relative;
-    z-index: 1; /* Ensures the banner is above the background */
 }
 
 .container {
@@ -39,21 +29,33 @@ header {
 h1, h2 {
     color: #fff;
     margin: 0;
+    font-size: 50px;
+}
+
+#introduction {
+    padding-top: 80px; /* Adjust the padding as needed */
+}
+
+.banner {
+    background: rgba(255, 255, 255, 0.85); /* White slightly transparent banner */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 section {
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.85); /* Semi-transparent background */
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.8);
+    box-shadow: 0 4px 8px rgba(4, 202, 231, 0.85);
     padding: 30px;
     margin: 20px 0;
-    transition: background-color 0.3s ease; /* Smooth transition on hover */
-    position: relative;
-    z-index: 0; /* Ensures the sections are below the banner */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+    cursor: pointer;
 }
-
-section:hover {
-    background-color: rgba(76, 175, 80, 0.9); /* Hover background color */
+.expand {
+    width: calc(100% + 40px);
+    margin: -20px;
 }
 
 ul {
@@ -88,5 +90,25 @@ footer {
 .education-image img {
     width: 100%;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.8);
+    box-shadow: 0 4px 8px rgba(4, 202, 231, 0.85);
 }
+
+section {
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(4, 202, 231, 0.85);
+    padding: 30px;
+    margin: 20px 0;
+    overflow: hidden; /* Hide the overflow content */
+    cursor: pointer;
+}
+
+.expandable {
+    height: auto;
+    max-height: 1000px; /* Adjust to a value larger than your expected content height */
+    transition: max-height 0.3s ease;
+}
+
+
+
+
