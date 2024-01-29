@@ -2,10 +2,18 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('your-new-background-image.jpg') no-repeat center center fixed;
+    background: url('https://i.pinimg.com/originals/00/08/06/0008069a050ade9ecf214d6ddd18021d.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
     overflow: hidden; /* To prevent scrolling */
+}
+
+.banner {
+    background: rgba(255, 255, 255, 0.9); /* White slightly transparent banner */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .container {
@@ -24,6 +32,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
@@ -32,16 +41,16 @@ h1, h2 {
 }
 
 section {
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.8);
     padding: 30px;
     margin: 20px 0;
     transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
 section:hover {
-    background-color: rgba(76, 175, 80, 0.8); /* Hover background color */
+    background-color: rgba(76, 175, 80, 0.9); /* Hover background color */
 }
 
 ul {
@@ -63,6 +72,7 @@ footer {
     background: linear-gradient(135deg, #4CAF50, #1a1a1a);
     color: #fff;
     border-top: 2px solid #fff;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .grid {
@@ -74,6 +84,6 @@ footer {
 .intro-image img,
 .education-image img {
     width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.8);
 }
