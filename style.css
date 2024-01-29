@@ -52,3 +52,16 @@ footer {
     color: #fff;
     border-top: 2px solid #4CAF50;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.intro-image img,
+.education-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
