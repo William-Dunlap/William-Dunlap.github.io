@@ -30,10 +30,11 @@ h1, h2 {
     color: #fff;
     margin: 0;
     font-size: 50px;
+    padding: 20px;
 }
 
 #introduction {
-    padding-top: 80px; /* Adjust the padding as needed */
+    padding-top: 20px; /* Adjust the padding as needed */
 }
 
 .banner {
