@@ -81,7 +81,7 @@ ul li::before {
 footer {
     text-align: center;
     padding: 1em 0;
-    background: linear-gradient(135deg, #4CAF50, #1a1a1a);
+    background: linear-gradient(135deg, #055462, #021F23);
     color: #fff;
     border-top: 2px solid #fff;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
