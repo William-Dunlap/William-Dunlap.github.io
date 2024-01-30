@@ -29,8 +29,14 @@ header {
 h1, h2 {
     color: #fff;
     margin: 0;
-    font-size: 50px;
-    padding: 20px;
+    font-size: 45px;
+    padding: 15px;
+}
+h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 35px;
+    padding: 15px;
 }
 
 #introduction {
@@ -109,7 +115,13 @@ section {
     max-height: 1000px; /* Adjust to a value larger than your expected content height */
     transition: max-height 0.3s ease;
 }
+.skills-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove border spacing */
+}
 
-
-
+.skills-table td {
+    padding: 10px; /* Adjust padding as needed */
+    border: none;
+}
 
