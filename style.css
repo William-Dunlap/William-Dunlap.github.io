@@ -10,7 +10,7 @@ body {
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 1em 20px;
 }
 .menu-bar {
     display: flex;
@@ -91,7 +91,9 @@ footer {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     gap: 20px;
+
 }
 
 .intro-image img{
@@ -123,4 +125,9 @@ footer {
 .skills-table td {
     padding: 10px; /* Adjust padding as needed */
     border: none;
+}
+.education-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
