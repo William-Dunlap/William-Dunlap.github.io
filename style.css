@@ -104,15 +104,10 @@ footer {
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(4, 202, 231, 0.85);
 }
-
-section {
-    background-color: rgba(0, 0, 0, 0.85);
+.work-image img {
+    width: 100%;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(4, 202, 231, 0.85);
-    padding: 30px;
-    margin: 20px 0;
-    overflow: hidden; /* Hide the overflow content */
-    cursor: pointer;
 }
 
 .expandable {
