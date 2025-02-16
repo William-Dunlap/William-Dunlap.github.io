@@ -18,14 +18,14 @@ body {
     align-items: center;
     position: fixed;
     width: 100vw;
-    background-color: #333;
+    background-color: #1a1a1a;
     overflow: hidden;
 }
 .menu-bar a {
     float: left;
     font-size: 20px;
     display: block;
-    color: white;
+    color: #04cae7;
     text-align: center;
     padding: 14px;
     text-decoration: none;
