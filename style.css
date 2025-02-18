@@ -101,6 +101,18 @@ footer {
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(4, 202, 231, 0.85);
 }
+.jacobs-image img{
+    width: 15%;
+    float: right;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(4, 202, 231, 0.85);
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.jacobstxt p {
+    text-align: justify;
+}
+
 .education-image img {
     width: 100%;
     border-radius: 12px;
