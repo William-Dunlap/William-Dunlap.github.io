@@ -97,9 +97,12 @@ footer {
 }
 
 .intro-image img{
-    width: 100%;
+    width: 400px;
+    float: right;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(4, 202, 231, 0.85);
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .jacobs-image img{
@@ -110,7 +113,7 @@ footer {
     margin-left: 20px;
     margin-bottom: 10px;
 }
-.jacobstxt p {
+.jacobstxt p{
     text-align: justify;
 }
 
