@@ -117,12 +117,12 @@ footer {
     max-height: 1000px; /* Adjust to a value larger than your expected content height */
     transition: max-height 0.3s ease;
 }
-.skills-table {
+.skills-table, .uf-relevant-coursework {
     width: 100%;
     border-collapse: collapse; /* Remove border spacing */
 }
 
-.skills-table td {
+.skills-table td, .uf-relevant-coursework td {
     padding: 10px; /* Adjust padding as needed */
     border: none;
 }
