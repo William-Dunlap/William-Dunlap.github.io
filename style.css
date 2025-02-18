@@ -101,8 +101,9 @@ footer {
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(4, 202, 231, 0.85);
 }
+
 .jacobs-image img{
-    width: 15%;
+    width: 150px;
     float: right;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(4, 202, 231, 0.85);
